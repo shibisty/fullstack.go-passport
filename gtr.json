@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/shibisty/gtr/main/schema/gtr.schema.json",
+    "name": "fullstack-passport",
+    "version": "0.1.0",
+    "description": "passport for fullstack: auth provider, guards, auth/guest/CSRF/throttle middleware, login helpers",
+    "license": "MIT",
+    "repository": "github:shibisty/fullstack.go-passport",
+    "engines": {
+        "go": ">=1.22"
+    },
+    "devDependencies": {
+        "fullstack": "github:shibisty/fullstack.go",
+        "passport": "github:shibisty/passport.go"
+    },
+    "peerDependencies": {
+        "fullstack": "^0.1",
+        "passport": "^0.2"
+    },
+    "scripts": {
+        "test": "go test ./..."
+    }
+}
