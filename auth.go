@@ -1,4 +1,4 @@
-// Package auth wires passport into fullstack (gtr package fullstack-passport):
+// Package auth wires passport into fullstack (gtr package @fullstack/passport):
 // a service provider that builds the passport.Authenticator from the
 // configuration, guards and middleware for the router (web, api, auth,
 // guest, CSRF, login throttling) and helpers to log in and out.

@@ -1,4 +1,4 @@
-# fullstack-passport
+# @fullstack/passport
 
 [passport](https://github.com/shibisty/passport.go) for [fullstack](https://github.com/shibisty/fullstack.go):
 a service provider, guards as in Laravel (`web`, `api`), the `auth`, `guest`, CSRF and login
@@ -9,16 +9,16 @@ throttling middleware, and helpers to log in and out.
 ```json
 {
     "dependencies": {
-        "fullstack": "github:shibisty/fullstack.go",
-        "fullstack-passport": "github:shibisty/fullstack.go-passport",
-        "passport": "github:shibisty/passport.go",
-        "passport-local": "github:shibisty/passport.go-local-strategy"
+        "fullstack": "^0.1",
+        "@fullstack/passport": "^0.2",
+        "passport": "^0.2",
+        "@passport/local": "^0.2"
     }
 }
 ```
 
 ```go
-import auth "fullstack-passport" // package auth
+import auth "fullstack/passport" // package auth
 ```
 
 ## Setup
